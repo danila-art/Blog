@@ -1,0 +1,19 @@
+h1, h2{
+    font-family: Spectral SC, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+h3, h4, p{
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Шрифты
+nav h3
+contentArticles h2, h3
+contentArticlesBoxFlexP p
+boxSelector h4
+section1_box-h1
+
+*/
