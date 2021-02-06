@@ -1,5 +1,5 @@
 function funcSelector() {
-    console.log('Событие работает');
+    console.log('Событие funcSelector работает');
     let selector = document.getElementById('selector');
     let noneSelector = document.getElementById('noneSelector');
     if (getComputedStyle(noneSelector).display == 'none'){
@@ -11,4 +11,8 @@ function funcSelector() {
         selector.style.borderBottomRightRadius = '20px';
         noneSelector.style.display = 'none';
     }
+}
+
+function noneModuleWindowArticles() {
+    document.querySelector('body').style.backgroundColor = 'black';
 }
