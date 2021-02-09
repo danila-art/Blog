@@ -14,5 +14,13 @@ function funcSelector() {
 }
 
 function noneModuleWindowArticles() {
-    document.querySelector('body').style.backgroundColor = 'black';
+    let noneArticles = document.getElementById('noneArticles');
+    let button__open_moduleWindow = document.getElementById('button__open_moduleWindow');
+    if (getComputedStyle(noneArticles).display == 'none'){
+        noneArticles.style.display = 'flex';
+        button__open_moduleWindow.firstElementChild.innerHTML = 'Скрыть';
+    }else{
+        noneArticles.style.display = 'none';
+        button__open_moduleWindow.firstElementChild.innerHTML = 'Показать ещё';
+    }
 }
