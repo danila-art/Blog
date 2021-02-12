@@ -345,7 +345,9 @@ header {
     width: 100%;
     height: 525px;
     text-align: center;
-    color: white;
+    color: #000000;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
 }
 
 .section4__content_background-2 {
@@ -357,6 +359,8 @@ header {
     height: 525px;
     text-align: center;
     color: white;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
 }
 
 .section4__content_background-3 {
@@ -367,9 +371,22 @@ header {
     width: 100%;
     height: 525px;
     text-align: center;
-    color: white;
+    color: #000000;
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
 }
-.section4__innerText{
+
+.section4__innerText {
     display: block;
-    box-sizing: border-box;
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    padding-left:5%;
+    padding-right: 5%;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+}
+.noneDisplay{
+    display: none;
 }
