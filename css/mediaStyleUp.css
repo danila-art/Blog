@@ -2,3 +2,18 @@
 articlesBoxContent<---(Просмотреть блок)
 section2__content <----(Просмотреть блок)
 */
+
+@media screen and (max-width: 1366px) {
+    .section2__content_img-1, .section2__content_img-2, .section2__content_img-3, .section2__content_img-4 {
+        width: 500px;
+        height: 400px;
+    }
+    .section4__content_background-1, .section4__content_background-2, .section4__content_background-3, .section4__content_background-4 {
+        width: 100%;
+        height: 450px;
+    }
+    header {
+        width: 100%;
+        height: 550px;
+    }
+}

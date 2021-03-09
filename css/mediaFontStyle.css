@@ -1,9 +1,10 @@
-h1, h2{
+h1, h2 {
     font-family: Spectral SC, sans-serif;
     font-style: normal;
     font-weight: bold;
 }
-h3, h4, p{
+
+h3, h4, p {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -17,4 +18,50 @@ boxSelector h4
 section1_box-h1
 section3__about_textBox1 h3
 section3__about_textBox2 h3
+section4__innerText h2
+section4__innerText h3
+
 */
+
+@media screen and (max-width: 1366px) {
+    .nav h3 {
+        font-size: 16px;
+        width: auto;
+    }
+    .contentArticles h2 {
+        font-size: 20px;
+    }
+    .contentArticles h3 {
+        font-size: 16px;
+    }
+    .contentArticlesBoxFlexP p {
+        font-size: 14px;
+    }
+    .section4__innerText h2 {
+        font-size: 20px;
+    }
+    .section4__innerText h3 {
+        font-size: 16px;
+    }
+    .section2_box {
+        padding-top: 2%;
+    }
+    .section2__content_text {
+        padding-top: 50%;
+    }
+    .section2__content_text h2 {
+        font-size: 20px;
+    }
+    .section2__content_text h3 {
+        font-size: 16px;
+    }
+    .contentArticlesBoxFlexP p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .section-article__content-box h3{
+        font-size: 22px;
+    }
+}

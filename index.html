@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Blog - Главная страница</title>
@@ -11,223 +12,193 @@
     <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link content="shortcut" rel="shortcut icon" href="img/logo/OBJECTS.svg">
+    <link rel="stylesheet" href="css/mediaStyleUp.css">
 </head>
-<body>
-<header>
-    <div class="container">
-        <div class="flexBox">
-            <div class="logo">
-                <img src="img/logo/OBJECTS.svg" alt="Logo">
-            </div>
-            <div class="nav">
-                <h3><a href="#">Статьи</a></h3>
-                <h3><a href="#">Обо мне</a></h3>
-                <h3><a href="#">Портфолио</a></h3>
-                <h3><a href="#">Написать мне</a></h3>
-            </div>
-        </div>
-    </div>
-</header>
-<section>
-    <div class="container">
-        <div class="flexBox section1_box">
-            <div>
-                <h1 class="section1_box-h1">Все статьи</h1>
-            </div>
-            <div class="boxSelector">
-                <div id="selector" class="selector" onclick="funcSelector()">
-                    <h4>Выбрать тему</h4>
-                    <img src="img/Polygon1.png" alt="ErrorUpImage">
-                </div>
-                <div id="noneSelector" class="noneSelector">
-                    <h4><a href="#">Город</a></h4>
-                    <h4><a href="#">Книги</a></h4>
-                    <h4><a href="#">Путешествия</a></h4>
-                    <h4><a href="#">Рецепты</a></h4>
-                    <h4><a href="#">Фотографии</a></h4>
-                </div>
-            </div>
-        </div>
-        <div class="flexBoxArticles">
-            <div class="articlesBoxContent">
-                <div class="imgArticles"><img src="img/articles/article1.png" alt="errorUpImage"></div>
-                <div class="contentArticles">
-                    <h2>Путешествие в Берлин в августе </h2>
-                    <h3>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</h3>
-                    <div class="contentArticlesBoxFlexP-article">
-                        <p>Теги: путешествия</p>
-                        <p>29.09.2020</p>
-                    </div>
-                </div>
-            </div>
-            <div class="articlesBoxContent">
-                <div class="imgArticles"><img src="img/articles/article2.png" alt="errorUpImage"></div>
-                <div class="contentArticles">
-                    <h2>Где выпить колдбрю в Москве</h2>
-                    <h3>Собрала для вас список любимых кофеен,
-                        где подают лучший летний напиток.</h3>
-                    <div class="contentArticlesBoxFlexP-article">
-                        <p>Теги: город</p>
-                        <p>24.07.2020</p>
-                    </div>
-                </div>
-            </div>
-            <div class="articlesBoxContent">
-                <div class="imgArticles"><img src="img/articles/article3.png" alt="errorUpImage"></div>
-                <div class="contentArticles">
-                    <h2>Прочитано: книжные рекомендации</h2>
-                    <h3>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</h3>
-                    <div class="contentArticlesBoxFlexP-article">
-                        <p>Теги: книги</p>
-                        <p>15.07.2020</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="section2_box">
-    <div class="container">
-        <div class="justify__space-between-1">
-            <div class="section2__content-left">
-                <div class="section2__content_img-1">
-                    <div class="section2__content_text">
-                        <h2>Снимки на плёнку</h2>
-                        <h3>Поделилась с вами весенними фотографиями,
-                            и секретами удачных снимков.</h3>
-                        <div class="contentArticlesBoxFlexP">
-                            <p>Теги: книги</p>
-                            <p>15.07.2020</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section2__content-right">
-                <div class="section2__content_img-2">
-                    <div class="section2__content_text">
-                        <h2>Домашний чизкейк </h2>
-                        <h3>Что может быть лучше чизкейка с сезонными
-                            ягодами? Только домашний чизкейк!</h3>
-                        <div class="contentArticlesBoxFlexP">
-                            <p>Теги: книги</p>
-                            <p>15.07.2020</p>
-                        </div>
-                    </div>
 
+<body>
+    <header>
+        <div class="container">
+            <div class="flexBox">
+                <div class="logo" onclick="location.href='index.html'">
+                    <img src="img/logo/OBJECTS.svg" alt="Logo">
+                </div>
+                <div class="nav">
+                    <h3><a href="#">Статьи</a></h3>
+                    <h3><a href="#">Обо мне</a></h3>
+                    <h3><a href="#">Портфолио</a></h3>
+                    <h3><a href="#">Написать мне</a></h3>
                 </div>
             </div>
         </div>
-        <div class="justify__space-between" id="noneArticles">
-            <div class="section2__content-left">
-                <div class="section2__content_img-3">
-                    <div class="section2__content_text">
-                        <h2>Снимки на плёнку</h2>
-                        <h3>Поделилась с вами весенними фотографиями,
-                            и секретами удачных снимков.</h3>
-                        <div class="contentArticlesBoxFlexP">
+    </header>
+    <section>
+        <div class="container">
+            <div class="flexBox section1_box">
+                <div>
+                    <h1 class="section1_box-h1">Все статьи</h1>
+                </div>
+                <div class="boxSelector">
+                    <div id="selector" class="selector" onclick="funcSelector()">
+                        <h4>Выбрать тему</h4>
+                        <img src="img/Polygon1.png" alt="ErrorUpImage">
+                    </div>
+                    <div id="noneSelector" class="noneSelector">
+                        <h4><a href="#">Город</a></h4>
+                        <h4><a href="#">Книги</a></h4>
+                        <h4><a href="#">Путешествия</a></h4>
+                        <h4><a href="#">Рецепты</a></h4>
+                        <h4><a href="#">Фотографии</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="flexBoxArticles">
+                <div class="articlesBoxContent">
+                    <div class="imgArticles" onclick="location.href='innerPage/article.html'">
+                        <img src="img/articles/article1.png" alt="errorUpImage">
+                    </div>
+                    <div class="contentArticles">
+                        <h2>Путешествие в Берлин в августе </h2>
+                        <h3>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</h3>
+                        <div class="contentArticlesBoxFlexP-article">
+                            <p>Теги: путешествия</p>
+                            <p>29.09.2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="articlesBoxContent">
+                    <div class="imgArticles" onclick="location.href='innerPage/article.html'">
+                        <img src="img/articles/article2.png" alt="errorUpImage">
+                    </div>
+                    <div class="contentArticles">
+                        <h2>Где выпить колдбрю в Москве</h2>
+                        <h3>Собрала для вас список любимых кофеен,
+                            где подают лучший летний напиток.</h3>
+                        <div class="contentArticlesBoxFlexP-article">
+                            <p>Теги: город</p>
+                            <p>24.07.2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="articlesBoxContent">
+                    <div class="imgArticles" onclick="location.href='innerPage/article.html'">
+                        <img src="img/articles/article3.png" alt="errorUpImage">
+                    </div>
+                    <div class="contentArticles">
+                        <h2>Прочитано: книжные рекомендации</h2>
+                        <h3>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</h3>
+                        <div class="contentArticlesBoxFlexP-article">
                             <p>Теги: книги</p>
                             <p>15.07.2020</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section2__content-right">
-                <div class="section2__content_img-4">
-                    <div class="section2__content_text">
-                        <h2>Домашний чизкейк </h2>
-                        <h3>Что может быть лучше чизкейка с сезонными
-                            ягодами? Только домашний чизкейк!</h3>
-                        <div class="contentArticlesBoxFlexP">
-                            <p>Теги: книги</p>
-                            <p>15.07.2020</p>
+        </div>
+    </section>
+    <section class="section2_box">
+        <div class="container">
+            <div class="justify__space-between-1">
+                <div class="section2__content-left">
+                    <div class="section2__content_img-1" onclick="location.href='innerPage/article.html'">
+                        <div class="section2__content_text">
+                            <h2>Снимки на плёнку</h2>
+                            <h3>Поделилась с вами весенними фотографиями,
+                                и секретами удачных снимков.</h3>
+                            <div class="contentArticlesBoxFlexP">
+                                <p>Теги: книги</p>
+                                <p>15.07.2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2__content-right">
+                    <div class="section2__content_img-2" onclick="location.href='innerPage/article.html'">
+                        <div class="section2__content_text">
+                            <h2>Домашний чизкейк </h2>
+                            <h3>Что может быть лучше чизкейка с сезонными
+                                ягодами? Только домашний чизкейк!</h3>
+                            <div class="contentArticlesBoxFlexP">
+                                <p>Теги: книги</p>
+                                <p>15.07.2020</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="justify__space-between" id="noneArticles">
+                <div class="section2__content-left">
+                    <div class="section2__content_img-3" onclick="location.href='innerPage/article.html'">
+                        <div class="section2__content_text">
+                            <h2>Снимки на плёнку</h2>
+                            <h3>Поделилась с вами весенними фотографиями,
+                                и секретами удачных снимков.</h3>
+                            <div class="contentArticlesBoxFlexP">
+                                <p>Теги: книги</p>
+                                <p>15.07.2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2__content-right">
+                    <div class="section2__content_img-4" onclick="location.href='innerPage/article.html'">
+                        <div class="section2__content_text">
+                            <h2>Домашний чизкейк </h2>
+                            <h3>Что может быть лучше чизкейка с сезонными
+                                ягодами? Только домашний чизкейк!</h3>
+                            <div class="contentArticlesBoxFlexP">
+                                <p>Теги: книги</p>
+                                <p>15.07.2020</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="button__open_moduleWindow" class="button__open_module-window" onclick="noneModuleWindowArticles()">
-            <h3>Показать ещё</h3>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <div class="section3_h1">
-            <h1>ОБО МНЕ</h1>
-        </div>
-        <div class="flexBox">
-            <div class="section3__flexBox1">
-                <div class="section3__about_imgBox">
-                    <img src="img/about/imgAbout.png" alt="errorUpImage">
-                </div>
-            </div>
-            <div class="section3__flexBox2">
-                <div class="section3__about_textBox1">
-                    <h3>Всем привет! Меня зовут Аня, и это мой личный блог.
-                        Здесь ты найдёшь рассказы о моих путешествиях, снимки
-                        на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
-                        что мне инетресно.</h3>
-                    <h3>Я работаю копирайтером, поэтому мой блоге — это ещё и моё
-                        портфолио. Ниже размещены несколько моих лучших
-                        рабочих текстов. Буду рада новым сотрудничествам!</h3>
-                    <h3>Если вы хотите написать мне — это можно сделать в соцсетях
-                        или через форму. Всегда приятно услышать обратную связь
-                        от читателей и познакомиться поближе.</h3>
-                    <h3>Приятного чтения!</h3>
-                </div>
-                <div class="section3__about_textBox2">
-                    <h3>Я верю, что каждый раз пробуя новое,
-                        выходящее за зону моего комфорта,
-                        я действительно узнаю настояющую
-                        себя. </h3>
-                </div>
+            <div id="button__open_moduleWindow" class="button__open_module-window" onclick="noneModuleWindowArticles()">
+                <h3>Показать ещё</h3>
             </div>
         </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <div class="section4__h1">
-            <h1>Портфолио</h1>
-        </div>
-        <div class="section4__flex_justify">
-            <div class="section4__contentBox">
-                <div class="section4__content_background-1">
-                    <div class="section4__innerText">
-                        <h2>Блог HTML Academy</h2>
-                        <h2>«Как учиться продуктивно»</h2>
-                        <h3>Про основные методы обучения,
-                            которые помогут быстро и надолго
-                            запомнить информацию.</h3>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section3_h1">
+                <h1>ОБО МНЕ</h1>
+            </div>
+            <div class="flexBox">
+                <div class="section3__flexBox1">
+                    <div class="section3__about_imgBox">
+                        <img src="img/about/imgAbout.png" alt="errorUpImage">
                     </div>
                 </div>
-            </div>
-            <div class="section4__contentBox">
-                <div class="section4__content_background-2">
-                    <div class="section4__innerText">
-                        <h2>Журнал «LNK»</h2>
-                        <h2>«Зачем поцели нужны человеку?
-                            И какие они бывают»</h2>
-                        <h3>Поцелуи — повсеместная ежедневная
-                            практика. Но зачем люди целуются?
-                            Какие смысли вкладывают в этот ритуал?
-                            И где корни этой практики?</h3>
+                <div class="section3__flexBox2">
+                    <div class="section3__about_textBox1">
+                        <h3>Всем привет! Меня зовут Аня, и это мой личный блог.
+                            Здесь ты найдёшь рассказы о моих путешествиях, снимки
+                            на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+                            что мне инетресно.</h3>
+                        <h3>Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                            портфолио. Ниже размещены несколько моих лучших
+                            рабочих текстов. Буду рада новым сотрудничествам!</h3>
+                        <h3>Если вы хотите написать мне — это можно сделать в соцсетях
+                            или через форму. Всегда приятно услышать обратную связь
+                            от читателей и познакомиться поближе.</h3>
+                        <h3>Приятного чтения!</h3>
                     </div>
-                </div>
-            </div>
-            <div class="section4__contentBox">
-                <div class="section4__content_background-3">
-                    <div class="section4__innerText">
-                        <h2>Журнал «Т — Л»</h2>
-                        <h2>«Советы по эффективной
-                            удалённой работе»</h2>
-                        <h3>Поделилась лайфхаками, которые помогают
-                            мне работать продуктивно из дома. </h3>
+                    <div class="section3__about_textBox2">
+                        <h3>Я верю, что каждый раз пробуя новое,
+                            выходящее за зону моего комфорта,
+                            я действительно узнаю настояющую
+                            себя. </h3>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="noneWindowPortfolio" class="noneDisplay">
+    </section>
+    <section>
+        <div class="container">
+            <div class="section4__h1">
+                <h1>Портфолио</h1>
+            </div>
             <div class="section4__flex_justify">
                 <div class="section4__contentBox">
                     <div class="section4__content_background-1">
@@ -265,38 +236,89 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="buttonOpenPortfolioModule" class="button__open_module-window" onclick="noneModuleWindowPortfolio()">
-            <h3>Показать ещё</h3>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-        <div class="section5">
-            <h1>Написать мне</h1>
-        </div>
-        <div class="section5__boxForm">
-            <div class="boxForm__background">
-                <form action="">
-                    <div class="boxFrom__flex">
-                        <div class="boxForm__flex_block">
-                            <h2>Ваше имя</h2>
-                            <input type="text" name="FIO" placeholder="Иван Иванов">
-                        </div>
-                        <div class="boxForm__flex_block">
-                            <h2>Email</h2>
-                            <input type="text" name="Email" placeholder="google@gmail.com">
+            <div id="noneWindowPortfolio" class="noneDisplay">
+                <div class="section4__flex_justify">
+                    <div class="section4__contentBox">
+                        <div class="section4__content_background-2">
+                            <div class="section4__innerText">
+                                <h2>Журнал «LNK»</h2>
+                                <h2>«Зачем поцели нужны человеку?
+                                    И какие они бывают»</h2>
+                                <h3>Поцелуи — повсеместная ежедневная
+                                    практика. Но зачем люди целуются?
+                                    Какие смысли вкладывают в этот ритуал?
+                                    И где корни этой практики?</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="boxForm_TextArea">
-
+                    <div class="section4__contentBox">
+                        <div class="section4__content_background-3">
+                            <div class="section4__innerText">
+                                <h2>Журнал «Т — Л»</h2>
+                                <h2>«Советы по эффективной
+                                    удалённой работе»</h2>
+                                <h3>Поделилась лайфхаками, которые помогают
+                                    мне работать продуктивно из дома. </h3>
+                            </div>
+                        </div>
                     </div>
-                </form>
+                    <div class="section4__contentBox">
+                        <div class="section4__content_background-1">
+                            <div class="section4__innerText">
+                                <h2>Блог HTML Academy</h2>
+                                <h2>«Как учиться продуктивно»</h2>
+                                <h3>Про основные методы обучения,
+                                    которые помогут быстро и надолго
+                                    запомнить информацию.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="buttonOpenPortfolioModule" class="button__open_module-window"
+                onclick="noneModuleWindowPortfolio()">
+                <h3>Показать ещё</h3>
             </div>
         </div>
-    </div>
-</section>
-<script src="js/jsScript.js" type="text/javascript"></script>
+    </section>
+    <section class="section5__box">
+        <div class="container">
+            <div class="section5">
+                <h1>Написать мне</h1>
+            </div>
+            <div class="section5__boxForm">
+                <div class="boxForm__background">
+                    <form action="">
+                        <div class="boxFrom__flex">
+                            <div class="boxForm__flex_block">
+                                <h2>Ваше имя</h2>
+                                <input type="text" name="FIO" placeholder="Иван Иванов">
+                            </div>
+                            <div class="boxForm__flex_block">
+                                <h2>Email</h2>
+                                <input type="text" name="Email" placeholder="google@gmail.com">
+                            </div>
+                        </div>
+                        <div class="boxForm_TextArea">
+                            <h2>Сообщение</h2>
+                            <input type="text" name="message" maxlength="200">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flexBox">
+                <div class="footer__h2">ВК</div>
+                <div class="footer__h2">Телеграм</div>
+                <div class="footer__h2">Инстаграм</div>
+                <div class="footer__h2">Твиттер</div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jsScript.js" type="text/javascript"></script>
 </body>
+
 </html>

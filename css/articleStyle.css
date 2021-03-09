@@ -1,0 +1,259 @@
+.header {
+    background-image: url("../img/articles/background/artcilesBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 70vh;
+}
+
+.section-article {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.section-article__p {
+    display: block;
+    padding-top: 1%;
+}
+
+.section-article__flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-article__flex p {
+    color: rgba(46, 47, 34, 0.7);
+}
+
+.section-article__flex p:nth-child(2) {
+    margin-left: 1%;
+}
+
+.section-article__content {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-top: 3%;
+}
+
+.section-article__content-box {
+    color: #2E2F22;
+    text-align: left;
+    margin-top: 3%;
+}
+
+.section-article__content-box img {
+    width: 100%;
+    height: auto;
+}
+
+.section-article__content-box h3 {
+    width: 95%;
+    height: auto;
+}
+
+.icons {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.icons__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.icons__flex-box-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icons__like {
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+}
+
+.icons__like-count {
+    display: block;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icons__flex-box-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 20%;
+    height: auto;
+}
+
+.icons__social-box {
+    width: 90%;
+    height: auto;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icons__img {
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+}
+
+.icons__flex-arrow {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 22%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.icons__flex-arrow img {
+    width: 20%;
+    height: 2%;
+    margin: auto auto;
+}
+
+.reviews-block {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+}
+
+.reviews-block__box {
+    display: block;
+    background-color: #ECE1E1;
+    width: 60%;
+    height: auto;
+    padding: 5% 2% 2% 2%;
+    border-radius: 10px;
+}
+
+.reviews-block__user-block {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+    margin-left: 4%;
+}
+
+.reviews-block__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30%;
+    height: auto;
+    margin: auto 0;
+}
+
+.reviews-block__flex img {
+    width: 30%;
+    height: auto;
+}
+
+.reviews-block__flex h3 {
+    margin: auto 3%;
+}
+
+.reviews-block__user-text {
+    display: block;
+    margin-top: 1%;
+    width: 80%;
+}
+
+.form {
+    display: block;
+    width: 100%;
+}
+
+.form__content {
+    width: 50%;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+.form__h2 {
+    display: block;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.form__flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.form__box {
+    width: 50%;
+    height: auto;
+}
+
+.form__box-input {
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.form__box-input input {
+    width: 60%;
+    height: auto;
+    padding: 3%;
+    text-align: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #2E2F22;
+    outline: none;
+}
+
+.form__box-submit {
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.form__box-submit input {
+    background-color: inherit;
+    width: 60%;
+    height: auto;
+    padding: 4%;
+    text-align: left;
+    border: 1px solid #2E2F22;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form__input-message {
+    display: block;
+    height: 70%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.form__input-message input {
+    width: 80%;
+    height: 100%;
+    padding: 4%;
+    text-align: left;
+    outline: none;
+    border: 1px solid #2E2F22;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
